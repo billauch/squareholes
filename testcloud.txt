@@ -1,2 +1,6 @@
 hello
+<<<<<<< HEAD
 local change
+=======
+remote change
+>>>>>>> 94e94eaec65adad4c1c2cd9c1a5154bd4191faf0
