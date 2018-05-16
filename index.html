@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>square holes</title>
+		<link rel="stylesheet" href="dragdropstylejq.css" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Ruda' rel='stylesheet' type='text/css'>
+		<script src="jquery-1.9.1.js"></script>
+		<script src="jquery-ui-1.10.1.custom.js"></script>
+		<script language="JavaScript" type="text/javascript" src="dragdropjq.js"></script>	
+	</head>
+	
+<body>
+
+<header>
+<div id="mainlogo">Square Holes</div>
+<nav id="topmainnav">
+<ul>
+<li class="active"><a href="#">game</a></li>
+<li><a href="#">slide</a></li>
+<li><a href="#">download</a></li>
+</ul>
+</nav>
+</header>
+
+
+
+
+<section id="whiteboard" class="widthwrapper">
+	
+	<div id="dropping">
+		<div id="dropzone1" class="droppabledrop"><p>square hole 1</p></div>
+		<div id="dropzone2" class="droppabledrop"><p>square hole 2</p></div>
+		<div id="dropzone3" class="droppabledrop"><p>square hole 3</p></div>
+		<div id="dropzone4" class="droppabledrop"><p>square hole 4</p></div></div>
+
+	<div id="dragging">
+		<div id="drag7" class="draggabledrop">A</div>
+		<div id="drag6" class="draggabledrop">B</div>
+		<div id="drag5" class="draggabledrop">C</div>
+		<div id="drag4" class="draggabledrop">D</div>
+		<div id="drag3" class="draggabledrop">E</div>
+		<div id="drag2" class="draggabledrop">F</div>
+		<div id="drag1" class="draggabledrop">G</div></div>
+		
+		
+		
+	<article id="functionButtons">
+	<!-- don't call javascript as an element attribute -->
+	<ul>
+		<li id="reset"><p>reset</p></li>	
+		<li id="instruct"><p>instructions</p></li>
+	</ul>
+	</article>
+		
+		
+	<article class="totalling">
+	<div id="bethisTasty">
+		<ul class="droptotals">
+			<li id="zone1">
+			<h6>Square Hole 1</h6>
+			<p id="dropzone1T" class="totalInZone">Total: 0</p>
+			<p class="containsList">Contains:</p>
+			<p id="dropzone1L" class="containZone">--</p>
+			</li>
+	
+			<li id="zone2">
+			<h6>Square Hole 2</h6>
+			<p id="dropzone2T" class="totalInZone">Total: 0</p>
+			<p class="containsList">Contains:</p>
+			<p id="dropzone2L" class="containZone">--</p>
+			</li>	
+	
+			<li id="zone3">
+			<h6>Square Hole 3</h6>
+			<p id="dropzone3T" class="totalInZone">Total: 0</p>
+			<p class="containsList">Contains:</p>
+			<p id="dropzone3L" class="containZone">--</p>
+			</li>	
+	
+			<li id="zone4">
+			<h6>Square Hole 4</h6>
+			<p id="dropzone4T" class="totalInZone">Total: 0</p>
+			<p class="containsList">Contains:</p>
+			<p id="dropzone4L" class="containZone">--</p>
+			</li>		
+		</ul>
+	</div>
+
+	<div id="subtotalsectid">
+	<ul class="subtotals">
+	
+		<li id="totalzone">
+		<h6>Total Holes</h6>
+		<p id="totalzoneP">total in square holes: 0</p>
+		</li>	
+	
+		<li id="totalboard">
+		<h6>Remaining</h6>
+		<p id="totalboardP" class="totalremain">total on board: 7</p>
+		</li>		
+	
+	</ul>
+	</div>
+
+	</article>
+	
+</section>
+</body>
+</html>
